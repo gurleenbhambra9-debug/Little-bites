@@ -1,0 +1,66 @@
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/food20.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position: center;
+    color:white;
+    padding-top: 200px;
+    padding-left: 100px;
+    /* position: relative; */
+}
+.home-h2{
+    font-family: var(--font-heading);
+}
+.home-h2-two{
+    font-family: var(--font-heading);
+    margin-top: 10px;
+    font-style: italic;
+}
+.home-p{
+    font-family: var(--font-ui);
+     margin-top: 10px;
+}
+.home-btn{
+    padding:10px 20px;
+     margin-top: 30px;
+     font-family: var(--font-ui);
+     border-radius: 20px;
+     border: none;
+     background-color: var(--primary-color);
+     color:white;
+    
+}
+.home-btn:hover{
+  cursor: pointer;
+  background: transparent;
+  border:1px solid white;
+  
+}
+.facilities{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    width:80%;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    left:50%;
+    transform: translateX(-50%);
+}
+.facilities i{
+    font-size: 30px;
+}
+.facility1, .facility2, .facility3, .facility4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.facility-h5{
+    font-family: var(--font-heading);
+    font-size: 18px;
+}
+.facility-p{
+    font-family: var(--font-primary);
+}

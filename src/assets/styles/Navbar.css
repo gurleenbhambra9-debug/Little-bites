@@ -1,0 +1,81 @@
+.navbar{
+    display: flex;
+    /* border:1px solid black; */
+    padding:30px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color:white;
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+/* Navbar specifically for About page */
+.about-navbar {
+    /* background-color: #FFF8F0;
+    color: #222; */
+    /* background-color: #F5F1E8;
+    color:#26352B; */
+     /* background-color: #FAF3E8;
+    color:#30231D; */
+    background-color: white;
+    color: black;
+}
+
+/* Change links on About page */
+.about-navbar .list-items a {
+    color: #222;
+}
+
+/* Change icons on About page */
+.about-navbar .icons i {
+    color: #222;
+}
+
+/* Logo */
+.about-navbar .nav-h2 {
+    color: #222;
+}
+.list-items{
+    display: flex;
+    gap:20px;
+    font-family: var(--font-primary);
+    
+}
+.list-items a:hover{
+    opacity: 0.5;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap:20px;
+     font-family: var(--font-primary);
+   
+}
+.icons i{
+      color:white;
+}
+.list-items a{
+    text-decoration: none;
+    color:white;
+}
+.nav-h2{
+    font-family: var( --font-heading);
+}
+.nav-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    background-color: var(--primary-color);
+    border:none;
+}
+.nav-btn a{
+    text-decoration: none;
+    color:white;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    background: transparent;
+    border:1px solid white;
+    color: var(--primary-color);
+}

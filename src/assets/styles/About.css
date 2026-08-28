@@ -1,0 +1,28 @@
+#about{
+    height:100vh;
+    display: flex;
+    /* border:2px solid black; */
+    padding-top: 95px;
+    background: #FFF7F2;
+    color: #3B1F2B;
+}
+.about-left{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.about-img{
+       /* width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 60% 40% 50% 50%; */
+     width: 350px;
+    height: 100vh;
+    object-fit: cover;
+
+    border-radius: 55% 8% 8% 55%;
+}
