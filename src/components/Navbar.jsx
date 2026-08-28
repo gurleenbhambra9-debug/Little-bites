@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <>
     <nav className={`navbar ${location.pathname === '/about' ? 'about-navbar' : ''}`}>
-        <h2 className="nav-h2">Little Bites</h2>
+        <h2 className="nav-h2"> <i className="fa-solid fa-utensils"></i>  Little Bites</h2>
 
         <div className="list-items">
            <Link to={'/'}>Home</Link>

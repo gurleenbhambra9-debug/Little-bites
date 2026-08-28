@@ -42,6 +42,9 @@
     font-family: var(--font-primary);
     
 }
+/* .nav-h2 i{
+    color:white;
+} */
 .list-items a:hover{
     opacity: 0.5;
 }
