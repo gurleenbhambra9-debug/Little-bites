@@ -10,43 +10,38 @@
     z-index: 1000;
     transition: 0.3s ease;
 }
-/* Navbar specifically for About page */
-.about-navbar {
-    /* background-color: #FFF8F0;
-    color: #222; */
-    /* background-color: #F5F1E8;
-    color:#26352B; */
-     /* background-color: #FAF3E8;
-    color:#30231D; */
+Navbar specifically for About page
+ .about-navbar {
     background-color: white;
-    color: black;
+    color:white;
 }
 
 /* Change links on About page */
 .about-navbar .list-items a {
-    color: #222;
+    color:white;
 }
 
 /* Change icons on About page */
 .about-navbar .icons i {
-    color: #222;
+    color:white;
 }
 
 /* Logo */
 .about-navbar .nav-h2 {
-    color: #222;
+    color:white;
 }
 .list-items{
     display: flex;
     gap:20px;
     font-family: var(--font-primary);
     
-}
+} 
 /* .nav-h2 i{
     color:white;
 } */
 .list-items a:hover{
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    color: var(--primary-color);
 }
 .icons{
     display: flex;

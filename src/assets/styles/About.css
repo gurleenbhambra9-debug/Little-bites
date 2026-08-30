@@ -3,26 +3,119 @@
     display: flex;
     /* border:2px solid black; */
     padding-top: 95px;
-    background: #FFF7F2;
-    color: #3B1F2B;
+    /* background: #FFF7F2; */
+    /* background: #ecd5c7; */
+    color: black;
+       background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(../images//food19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
 }
 .about-left{
-    width: 50%;
+    padding:30px;
+    width: 70%;
+ 
 }
 .about-right{
-    width: 50%;
+    padding:10px;
+    width: 30%;
     display: flex;
     justify-content: right;
     align-items: center;
+    /* border: 1px solid black; */
 }
-.about-img{
-       /* width: 400px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 60% 40% 50% 50%; */
+/* .about-img{
      width: 350px;
     height: 100vh;
     object-fit: cover;
 
     border-radius: 55% 8% 8% 55%;
+} */
+
+.about-img{
+    height: 90%;
+    width: 100%;
+    /* border-radius: 50%; */
+    box-shadow: 5px 5px 5px black;
+}
+
+.about-left-h2{
+    font-family: var(--font-heading);
+}
+.about-text{
+    /* border:1px solid black; */
+    display: flex;
+    gap:20px;
+    padding:20px;
+    font-family: var(--font-ui);
+}
+.about-text-left{
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+.about-text-left i{
+    font-size: 30px;
+}
+.about-text-right i{
+    font-size: 30px;
+}
+.about-text-right{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.about-text-right-one{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.about-text-right-two{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.about-left-h4{
+    font-family: var(--font-heading);
+    text-align: center;
+    font-size: 25px;
+}
+.founders{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-family: var(--font-ui);
+  /* border:1px solid black; */
+  padding:10px;
+  align-items: center;
+  border-radius: 15px;
+   background: #c1977b;
+   box-shadow: 5px 5px 5px black;
+}
+.founder1{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    gap:20px;
+}
+.founder-img{
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+}
+.founder2{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.founder1-right-h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.founder2-right-h5{
+    margin-bottom: 10px;
+    font-size: 16px;
 }
